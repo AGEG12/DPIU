@@ -1,0 +1,27 @@
+h1,
+h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+.contenedor {
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+}
+.first-letter {
+    color: #001cba;
+    font-size: 3rem;
+    float: left;
+    position: relative;
+    top: -1.5rem;
+}
+img {
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+

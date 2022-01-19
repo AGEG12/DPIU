@@ -1,0 +1,44 @@
+.menu-simple ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu-simple {
+    min-width: 663px;
+}
+
+  /*  */
+  html {
+    font-family: sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  .centrado {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 52em;
+  }
+  .menu-seccion {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(0, 0%, );
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #d24b45;
+  }
+  .menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .6em 1em;
+  }
+  .menu li a:hover {
+    background: #fcb0b3;
+  }
+  h2 {
+    color: #445E93;
+  }

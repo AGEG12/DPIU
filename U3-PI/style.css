@@ -1,0 +1,148 @@
+/* Flex */
+.intermedia ul {
+    display: flex;
+}
+.intermedia li {
+    margin: 0 5px;
+}
+/* Grid */
+@media screen and (min-width: 600px) {
+  .sitio {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .area-central-texto p {
+    padding-top: 0;
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 800px) {
+    .sitio {
+      display: grid;
+      grid-template-columns: 270px 1fr;
+
+    }
+    .encabezado {
+      grid-row: 1 / 4;
+    }
+    .imagen {
+      grid-column: 2 / 3;
+    }
+    .pie-de-pagina {
+      grid-column: 1 / 3;
+    }
+  }
+@media screen and (min-width: 1040px) {
+  .sitio {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 300px 2fr 1fr;
+  }
+  .encabezado {
+    grid-row: 1 / 4;
+  }
+  .imagen {
+    grid-column: 2 / 4;
+  }
+  .pie-de-pagina {
+    grid-column: 1 / 4;
+  }
+}
+
+/*  */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+p {
+  margin-bottom: 1.5em;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+.logo, .site-title {
+  text-align: center;
+}
+.logo {
+  font-size: 8em;
+}
+.site-title {
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
+
+.area-central {
+  background: #FFF6E5;
+  padding-bottom: 2em;
+}
+.area-central-contenido {
+  padding: 1.5em;
+}
+.intermedia {
+  padding: 2em 1em 1em;
+  background: #3E454C;
+}
+.intermedia ul {
+  margin: 0;
+  padding: 0;
+}
+.intermedia li {
+  margin-bottom: 1em;
+  background: white;
+  list-style-type: none;
+}
+.area-intermedia {
+  padding: 1.5em;
+}
+.inferior {
+  padding: 2em;
+  background: #FFF6E5;
+}
+.contenido-inferior {
+  padding: 1.5em;
+}
+.lateral {
+  background: hsl(0, 0%, 90%);
+}
+.barra-lateral {
+  padding: 2em;
+  background: #B5AA9D;
+  color: white;
+}
+.barra-lateral:last-of-type {
+  background: #B9B7A7;
+}
+.pie-de-pagina {
+  padding: 2em;
+  background: #7C90A0;
+  color: white;
+  text-align: center;
+}
+.pie-de-pagina a {
+  color: white;
+}
+.pie-de-pagina a:hover, .pie-de-pagina a:focus {
+  border-bottom: 1px solid white;
+}

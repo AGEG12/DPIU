@@ -1,0 +1,56 @@
+img {
+    float: right;
+  }
+  .contenedor1_2{
+    background-color: #b6ea97 !important; 
+  }
+  .contenedor2 {
+    overflow-y: scroll;
+    float: left;
+    background-color: #ba303f !important;
+  }
+  .contenedor3 {
+    float: right;
+  }
+  .contenedor_x2 {
+      width: 790px;
+  }
+  
+  /*  */
+  img {
+    margin: 15px;
+  }
+  .contenedor1_2{
+    margin: 15px;
+    background-color:lightgreen;  
+  }
+  .contenedor2 {
+    width: 400px;
+    color:white;
+    background-color:crimson;
+    margin:5px;
+    height:320px;
+  }
+  .contenedor3 {
+    width: 370px;
+    margin-left:5px;
+  }
+  .encabezado2 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .encabezado1 {
+    font-size: 1.33em;
+    font-weight: bold;
+    margin:5px;
+  }
+  .contenedor1 {
+    width: 800px;
+  }
+  .chiles{
+    margin-left:10px;
+  }
+  body{
+    font-family: sans-serif;
+  }

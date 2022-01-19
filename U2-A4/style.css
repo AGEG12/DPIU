@@ -1,0 +1,35 @@
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.columna {
+  margin: 3px;
+  flex-grow: 1;
+  display: flex;
+  flex-basis: 190px;
+  flex-flow: column wrap;
+}
+/* Media querys */
+@media screen and (max-width: 800px) {
+  .columna {
+    flex-basis: 280px;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .columna {
+    flex-basis: 500px;
+  }
+}
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.columna img {
+  margin-top: 8px; /* separacion imagenes */
+  vertical-align: middle;
+  width: 100%;
+}
